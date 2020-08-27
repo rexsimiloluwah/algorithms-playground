@@ -1,0 +1,1 @@
+This algorithm is an optimized method of computing all the prime numbers less than a number (N)
