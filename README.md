@@ -1,0 +1,1 @@
+This repository contains a curation of random Data structures and algorithms-based problems i have solved for learning or contest purposes (PS :- To my potential future employer, please do not assess me by any line of code you find here.)
