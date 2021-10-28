@@ -1,5 +1,4 @@
 # Simple implementation of Hamming distance 
-
 class HammingDistance:
     @staticmethod
     def compute(x, y):

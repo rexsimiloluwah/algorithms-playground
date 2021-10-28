@@ -1,0 +1,2 @@
+### Lempel-Ziv algorithm 
+A lossless data compression algorithm which works by parsing a string into a sequence of unique phrases and converting those phrases to fixed-length codewords based on their index in the dictionary of phrases.

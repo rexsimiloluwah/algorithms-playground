@@ -1,7 +1,6 @@
 # SOLUTION FOR AMICABLE PAIRS PROBLEM 
 from functools import reduce
 class Solution:
-
     def find_factors(self, N):
         """
             Desc. : Basic algorithm to find the sum of all proper divisors of a number

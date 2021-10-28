@@ -1,5 +1,4 @@
 # IMPLEMENTATION OF THE SIEVE OF ERATHOSTHENES ALGORITHM IN PYTHON
-
 class SOE:
     @staticmethod
     def compute_primes(N):

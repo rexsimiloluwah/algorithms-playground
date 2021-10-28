@@ -1,12 +1,9 @@
 import numpy as np 
-import math
-import sys
 
 def generate_random_grid(x = 9, y = 9):
     """
         DESC : This function returns a square grid of dimensions (x, y) i.e. x-rows and y-columns
     """
-
     assert x == y, "x must be equal to y for a square grid !"
     assert x > 0 and y > 0, "x and y must be greater than 0 !"
 
@@ -30,7 +27,6 @@ def check_constraints(row,col, n):
         n (int) -> Number to be checked
     """
     global grid
-
     for i in range(9):
         # Checks the constraint for the row
         if (grid[row, i] == n) and (col != i):
@@ -56,7 +52,6 @@ def check_constraints(row,col, n):
 
 def find_empty_cell():
     global grid
-
     for row in range(9):
         for col in range(9):
             if grid[row, col] == 0:
@@ -65,7 +60,6 @@ def find_empty_cell():
 
     
 def solve(grid):
-
     """
         DESC : This function basically solves the sudoku puzzle using all the constraints and a back-tracking algorithm (CREDITS :- ComputerPhile, TechWithTim)
     """

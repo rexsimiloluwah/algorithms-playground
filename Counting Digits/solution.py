@@ -1,6 +1,4 @@
-
 def countingdigits(s):
-    
     d = dict(enumerate([0]*10))
     for k,v in d.items():
         if str(k) in s:

@@ -1,5 +1,4 @@
 # Implementation of the Bubble Sort algorithm 
-
 class BubbleSort:
     @staticmethod
     def sort(arr, order = "ascending"):
